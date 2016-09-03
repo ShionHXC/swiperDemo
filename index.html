@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+	<meta name="author" content="">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="blank">
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title></title>
+	
+	<link rel="stylesheet" type="text/css" href="css/swiper-3.3.1.min.css"/>
+	<link rel="stylesheet" type="text/css" href="css/animate.css"/>
+	<style type="text/css">
+		html,body{
+			width:100%;
+			height: 100%;
+			margin: 0;
+			padding: 0;
+			font-family: "微软雅黑";
+		}
+		img,div,section,h2{
+			margin: 0;
+			padding: 0;
+			border: none;
+		}
+		section{
+			background: url(img/yq0KXFYzHGqAZ608AADEj3HHsf0174.jpg);
+			width: 100%;
+			height: 100%;
+			
+		}
+		
+		img{
+			width: 100%;
+		}
+		.Shion,.page{
+			width: 100%;
+			height: 100%;
+			position: relative;
+		}
+		
+		
+		#bg{
+			width: 240px;
+			height: 240px;
+			position: absolute;
+			top: 18%;
+			left: 13%;
+			z-index: 1;
+		}
+		#bg img{
+			width: 100%;
+			height: 100%;
+			animation: turnCicle 3s linear infinite; 
+			-webkit-animation:turnCicle 3s linear infinite;  ;
+			transform-origin: center;
+		}
+		@keyframes turnCicle{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+		@-webkit-keyframes turnCicle{
+			from{transform: rotate(0deg);}
+			to{transform: rotate(360deg);}
+		}
+		#banner{
+			position: absolute;
+			width: 95%;
+			height: auto;
+			left: 2.5%;
+			top: 55%;
+			z-index: 2;
+		}
+		#banner img{
+			width: 100%;
+		}
+		#banner_word{
+			position: absolute;
+			width: 41%;
+			height: auto;
+			left: 29%;
+			text-align: center;
+			top: 57%;
+			z-index: 3;
+		}
+		/*#banner_word img{
+			
+			-webkit-animation: shock 3s linear infinite;
+			animation: shock 3s linear infinite;
+			transform-origin: 50% 500%;
+		}
+		@-webkit-keyframes shock{
+			0%{transform: rotate(0deg);}
+			20%{transform: rotate(10deg);}
+			40%{transform: rotate(-5deg);}
+			60%{transform: rotate(5deg);}
+			80%{transform: rotate(-3deg);}
+			100%{transform: rotate(0deg);}
+		}*/
+		#halloween{
+			position: absolute;
+			width: 40%;
+			top: 64%;
+			left: 30%;
+		}
+		#halloween img{
+			width: 100%;
+		}
+		#man{
+			position: absolute;
+			width: 32%;
+			height: auto;
+			left: 15%;
+			text-align: center;
+			top: 39%;
+			z-index: 3;
+		}
+		#hat{
+			position: absolute;
+			left: 13%;
+			top: 29%;
+			z-index: 5;
+			width: 38%;
+		}
+		#woman{
+			position: absolute;
+			left: 50%;
+			top: 36%;
+			z-index: 5;
+			width: 35%;
+		}
+		#hairpin{
+			position: absolute;
+			left: 53%;
+			top: 40%;
+			z-index: 6;
+			width: 24%;
+		}
+		.bat1{
+			position: absolute;
+			left: 5%;
+			top: 7%;
+			transform: rotate(-32deg);
+		}
+		.bat2{
+			position: absolute;
+			left: 40%;
+			top: 25%;
+			z-index: 6;
+		}
+		.bat3{
+			position: absolute;
+			left: 60%;
+			top: 10%;
+			transform: rotate(30deg);
+			z-index: 3;
+		}
+		.picWrap{
+			position: absolute;
+			z-index: 2;
+			/* background: yellow; */
+			width: 80%;
+			top: 23%;
+			left: 10%
+		}
+		.picWrap img{
+			border-radius: 100%;
+		}
+		 div[title='explain']{
+			width: 100%;
+			height: 10%;
+			position: absolute;
+			left: 0;
+			top: 75%;
+			color: #cf2643;
+			text-align: center;
+		}
+		.hat2{
+			position: absolute;
+			left: 25%;
+			top: 3%;
+			width: 60%;
+			height: 38%;
+			z-index: 2;
+		}
+	</style>
+</head>
+<body>
+	<section>
+		<div class="swiper-container Shion">
+	   		<div class="swiper-wrapper">
+		    	<div class="swiper-slide page">
+					<div id="bg">
+						<img src="img/yq0KZFYzKZyAO9CGAAAlw9ta82U089.png"/>
+					</div>
+					<div id="banner">
+						<img src="img/yq0KZVYzKOaAflUVAAAK0SAtgOg417.png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="0s"/>
+					</div>
+					<div id="banner_word">
+						<img src="img/yq0KXVYzKu2ARV8bAABEBdHaBZY018.png" class="ani infinite" swiper-animate-effect="wobble" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+					</div>
+					<div id="halloween">
+						<img src="img/yq0KX1Y0a2CAXXn9AAAedN4u0kk679.png" class="ani" swiper-animate-effect="bounceInUp" swiper-animate-duration="2s" swiper-animate-delay="1s"/>
+					</div>
+					<div id="man">
+						<img src="img/yq0KZVYzKRqAZl5gAABpAvCs7lM907.png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div id="hat">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213.png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div id="woman">
+						<img src="img/yq0KZVYzKUaAVZwvAACd5Qt2d6w165.png" class="ani" swiper-animate-effect="rotateInUpRight" swiper-animate-duration="2s" swiper-animate-delay="2.5s"/>
+					</div>
+					<div id="hairpin">
+						<img src="img/yq0KZFYzKZyAdZ6qAAAdpxkdiMc514.png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="3s"/>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="3.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="4s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="4.5s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KZFYzC6WAGv3qACxdIj_sebs260.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">科学怪人</h2>
+						<span>他还活着！以神的名义</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KZFYzNciAMozrAA22yQ83KzQ280.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">查尔斯李雷</h2>
+						<span>你好，我是小鸡...会我成为永远的朋友</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KZFYzN8uAaEZ0AC1UypeFwc4973.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">萨马拉</h2>
+						<span>拿起电话，诺亚！</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KXlYzOO6AM8QZABpokEJhtI0429.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">木乃伊</h2>
+						<span>敲、、、敲、、、</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KZFYzPCeABoxrABL-jgmqtjY379.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">德古拉</h2>
+						<span>他们说你是一个有品味的人！！！</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KXFYzPMqAU1b1ABa5eqh0oHE235.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">黒湖的生灵</h2>
+						<span>去去去.....</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KXFYzQaOAWGpyACTB2f7-Y4w358.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">死神</h2>
+						<span>你的时间到了！！</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+				<div class="swiper-slide page">
+					<div style="background-color: #cf2643" class="ani" swiper-animate-effect="turnRight" swiper-animate-duration="2s" swiper-animate-delay="0s"></div>
+					<div class="picWrap">
+						<img src="img/yq0KXFYzQfGAFLaJAA6rNxSjKzQ988.gif" alt="" 
+							class="ani" swiper-animate-effect="fadeInLeft" swiper-animate-duration="3s" swiper-animate-delay="1s"/>
+					</div>
+					<div title="explain" class="ani" swiper-animate-effect="fadeInRight" swiper-animate-duration="2s" swiper-animate-delay="0.5s"/>
+						<h2 style="font-weight: 100;">拼图游戏</h2>
+						<span>我想和你玩一个游戏</span>
+					</div>
+					<div class="bat1">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (1).png" class="ani" swiper-animate-effect="zoomInUp" swiper-animate-duration="2s" swiper-animate-delay="1.5s"/>
+					</div>
+					<div class="bat2">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296 (2).png" class="ani" swiper-animate-effect="zoomInDown" swiper-animate-duration="2s" swiper-animate-delay="2s"/>
+					</div>
+					<div class="bat3">
+						<img src="img/yq0KZVYzKySATWUsAAAe3SKNazA296.png" class="ani" swiper-animate-effect="zoomInLeft" swiper-animate-duration="2s" swiper-animate-delay="2.3s"/>
+					</div>
+					<div class="hat2">
+						<img src="img/yq0KZVYzKYaAcmOYAAA5B7xVir8213 (1).png" class="ani" swiper-animate-effect="bounceInDown" swiper-animate-duration="2s" swiper-animate-delay="1.8s"/>
+					</div>
+				</div>
+	   		</div>
+		</div>
+	</section>
+	<script src="js/jquery-1.10.1.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper-3.3.1.jquery.min.js" type="text/javascript" charset="utf-8"></script>
+	<script src="js/swiper.animate1.0.2.min.js" type="text/javascript" charset="utf-8"></script>
+	<script type="text/javascript">
+		var mySwiper = new Swiper('.Shion',{
+			direction : 'vertical',
+			onInit: function(swiper){ //Swiper2.x的初始化是onFirstInit
+			    swiperAnimateCache(swiper); //隐藏动画元素 
+			    swiperAnimate(swiper); //初始化完成开始动画
+			  }, 
+			  onSlideChangeEnd: function(swiper){ 
+			    swiperAnimate(swiper); //每个slide切换结束时也运行当前slide动画
+			  }
+		})
+	</script>
+</body>
+</html>
